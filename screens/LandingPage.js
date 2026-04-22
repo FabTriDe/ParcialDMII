@@ -37,7 +37,7 @@ export default function LandingPage({ navigation }) {
       />
 
       <View style={styles.chips}>
-        {["Alumbrado", "Vías", "Basura", "Otro"].map((c) => (
+        {["🔦 Alumbrado", "🕳️Vías", "🗑️ Basura", "📌 Otro"].map((c) => (
           <View key={c} style={styles.chip}>
             <Text style={styles.chipText}>{c}</Text>
           </View>
