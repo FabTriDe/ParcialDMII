@@ -17,7 +17,7 @@ export default function LandingPage({ navigation }) {
       <StatusBar barStyle="light-content" backgroundColor="#0d0d0d" />
 
       <View style={styles.badge}>
-        <Text style={styles.badgeText}>📍 Reporte ciudadano</Text>
+        <Text style={styles.badgeText}>Reporte ciudadano</Text>
       </View>
 
       <Text style={[styles.titulo, { fontSize: width < 380 ? 34 : 44 }]}>
@@ -37,7 +37,7 @@ export default function LandingPage({ navigation }) {
       />
 
       <View style={styles.chips}>
-        {["🔦 Alumbrado", "🕳️ Vías", "🗑️ Basura", "📌 Otro"].map((c) => (
+        {["Alumbrado", "Vías", "Basura", "Otro"].map((c) => (
           <View key={c} style={styles.chip}>
             <Text style={styles.chipText}>{c}</Text>
           </View>

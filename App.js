@@ -6,7 +6,6 @@ import LandingPage from "./screens/LandingPage";
 
 const Stack = createNativeStackNavigator();
 
-// Pantallas placeholder temporales
 function ReportForm() {
   const { View, Text } = require("react-native");
   return (
