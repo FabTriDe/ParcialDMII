@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "bd-app",
-    "slug": "bd-app",
+    "name": "snapreport-app",
+    "slug": "snapreport-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
